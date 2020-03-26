@@ -1,0 +1,107 @@
+/* Custom styles */
+
+.navbar {
+    background-color: var(--color-bg-navbar)!important;
+    /* position: absolute; */
+}
+
+
+.th-card-text {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center !important;
+    padding-right: 10px;
+    font-size: 16px;
+    line-height: 22px;}
+.th-blog-cta-wrapper, .th-card-head, .th-card-text {
+        display: block !important;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        text-align: center;}
+
+        .card-img-top {
+            max-width: 246px !important;
+            max-height: 246px !important;
+        }
+        @media (max-height: 650px)
+        .card-img-top {
+            max-width: 246px !important;
+            max-height:246px !important;
+        }
+.mtop{
+  margin-top:14px;
+}
+.productlogo{
+  max-width:400px;
+}
+.th-card {
+    margin-top: 20px;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    width: 363px !important;
+}
+
+.th-cards-container.th-sticky {
+    position: sticky!important;
+    z-index: 99;
+    top: 10px;
+}
+
+
+.btn-orange-first{
+    background-color: #ff8c00;
+    border: 0px;
+    color: #000;
+}
+
+.btn-orange-first:hover{
+    background-color: #d67b0d;
+    border: 0px;
+    color: #000;
+}
+
+.btn-orange-first:not(:disabled):not(.disabled):active{
+    background-color: #d67b0d;
+    border: 0px;
+    color: #000;
+}
+
+
+.btn-orange-first:not(:disabled):not(.disabled):focuss{
+    background-color: #d67b0d;
+    box-shadow: 0 #d67b0d;
+    border: 0px;
+    color: #000;
+}
+
+
+
+
+/*------------------ medias queries ----------------------*/
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+    
+    .btn-orange-first{
+    background-color: #ff8c00;
+    border: 0px;
+    color: #000;
+    font-size: 15px;
+    }
+
+    .btn-warning {
+    font-size: 15px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) { ... }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) { ... }
